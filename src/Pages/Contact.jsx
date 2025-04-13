@@ -18,14 +18,11 @@ const Contact = () => {
           Fill Surprise Form
         </a>
         <div className="mt-6 space-x-4">
-          <a href="https://instagram.com" className="text-[#5C5470] underline">
+          <a href="https://www.instagram.com/the_secret_senders?igsh=NTc4MTIwNjQ2YQ==" className="text-[#5C5470] underline">
             Instagram
           </a>
-          <a href="https://t.me" className="text-[#5C5470] underline">
+          <a href="https://t.me/the_secret_senders" className="text-[#5C5470] underline">
             Telegram
-          </a>
-          <a href="tel:+234xxxxxxxx" className="text-[#5C5470] underline">
-            Call
           </a>
         </div>
       </section>

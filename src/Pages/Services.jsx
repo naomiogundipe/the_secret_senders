@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Header from "../components/Header";
 import {
   Cake,
+  Flower,
   Gift,
   GraduationCap,
   Group,
@@ -50,119 +51,140 @@ const Services = () => {
     <>
       <Header />
       <section className="bg-[#fbe4e3] py-20 px-6 text-center">
-        <h2 className="text-3xl font-semibold text-[#5C5470] mb-10">
+        <h2 className="text-3xl font-semibold text-[#5C5470] mb-2">
           Our Packages
         </h2>
+        <p className="mb-10 text-sm text-gray-400">All will be planned anonymously except stated otherwise</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {[
             {
-              price: "₦10,000",
+              price: "₦10,000 - Sweet & Simple",
               features: [
                 "🎈 Basic room décor",
-                "🎂 Mini snack pack",
-                "📸 One digital photo",
+                "🎁 Mini gift hamper",
+                "🎂 Mini cake loaf",
+                "📸 Photography (2 pictures)",
               ],
             },
             {
-              price: "₦20,000",
+              price: "₦20,000 - Sweet Moments",
               features: [
                 "🎈 Standard room décor",
                 "🎂 Small cake or snack box",
-                "📸 2 digital photos",
-                "🎁 Simple personal gift",
+                "📸 Photography (5 pictures)",
+                "🎁 Medium gift hamper",
+                "💐 Flower"
               ],
             },
             {
-              price: "₦30,000",
+              price: "₦30,000 - Chop & Cheer",
               features: [
                 "🎈 Upgraded room décor",
-                "🎂 Medium cake or deluxe snacks",
-                "📸 2 Polaroid + digital photos",
-                "🎁 Personalized gift",
+                "🎂 Medium cake and small chops",
+                "📸 Photography (10 pictures and 1 video)",
+                "🎁 Large Gift hamper",
+                "💐 Flower Bouquet"
               ],
             },
             {
-              price: "₦50,000",
+              price: "₦50,000 - Golden Surprise",
               features: [
                 "🎈 Premium room décor",
-                "🎂 Large cake/snack combo",
-                "📸 3 Polaroids + digital gallery",
-                "🎁 Custom surprise box",
+                "🎂 Large cake and snack combo",
+                "📸 Professional photos(15 photos)",
+                "📸 Edited reaction vlog",
+                "🎁 Premium gift Hamper(personalised gift, skincare, period care)",
                 "💌 Handwritten message card",
               ],
             },
             {
-              price: "₦70,000",
+              price: "₦70,000 - Cherished Vibes",
               features: [
                 "🎈 Premium décor with theme",
-                "🎂 Cake + snack hamper",
+                "🎂 Large Cake + snack hamper + drinks",
                 "📸 Photoshoot (5+ photos)",
-                "🎁 Gift box with premium items",
-                "🎶 Background music setup",
+                "🎁 Premium hamper + Branded T-Shirt/Branded Pillow",
+                "🎶 Full edited vlog",
+                "💐 Flower bouquet and rose path",
+                "🎁 Scrapbook gift"
               ],
             },
             {
-              price: "₦100,000",
+              price: "₦100,000 - All-In-One",
               features: [
                 "🎈 Themed décor + lights",
-                "🎂 Large cake & drink set",
-                "📸 Polaroids + digital album",
+                "🎂 Large cake & drink set & small chops",
+                "📸 Photo Album or Digital Album",
                 "🎁 Customized gift package",
-                "👑 Surprise reveal entrance",
+                "👑 Branded T-Shirt and branded pillow",
+                "💐 Money Bouquet and rose path",
+                "💐 Small Teddy Bear",
+                "🎶 Full edited vlog",
+                "📸 Photoshoot (5+ photos)",
               ],
             },
             {
-              price: "₦150,000",
+              price: "₦150,000 - Deluxe Moment",
               features: [
                 "🎈 Luxury themed décor",
                 "🎂 Premium cake/snack/wine combo",
                 "📸 Full digital + printed album",
-                "🎁 Personalized premium gift",
-                "💐 Fresh flowers",
+                "🎁 Personalized luxury gift",
+                "🎁 Medium Teddy Bear",
+                "💐 Flower with Money Bouquet",
+                "📸 Photoshoot (5+ photos)",
+                "👑 Branded T-Shirt and branded pillow",
+                "💐 rose path",
               ],
             },
             {
-              price: "₦170,000",
+              price: "₦170,000 - Regal Treat",
               features: [
                 "🎈 Romantic luxury décor",
                 "🎂 Dessert tower + drinks",
                 "📸 Photographer coverage",
                 "🎁 Couple gift set",
                 "💌 Love letter scroll",
+                " Deluxe Moment Package included"
               ],
             },
             {
-              price: "₦200,000",
+              price: "₦200,000 - Lavish Spark",
               features: [
                 "🎈 Complete themed setup",
                 "🎂 Large custom cake",
                 "📸 Photoshoot + video coverage",
                 "🎁 Premium customized gift box",
-                "🎶 DJ/speaker setup",
+                "Regal Treat Package included"
+                
               ],
             },
             {
-              price: "₦250,000",
+              price: "₦250,000 - Royalty Package",
               features: [
                 "🎈 Full room transformation",
                 "🎂 Cake, snacks, wine, bouquet",
                 "📸 Videography + edited clips",
                 "🎁 Customized hamper",
-                "🎤 Surprise narration",
+                " Skincare and Period care Package",
+                "Done according to your plan",
+                "Lavish Spark Package included"
+               
               ],
             },
             {
-              price: "₦300,000",
+              price: "₦300,000 - Diamond Affair",
               features: [
                 "🎈 Deluxe full-suite décor",
                 "🎂 Multi-tier cake + dessert cart",
                 "📸 Cinematic photo/video",
                 "🎁 Luxury surprise box",
                 "🎊 Celebration coordination",
+                "Royalty Package included"
               ],
             },
             {
-              price: "Custom",
+              price: "Custom - Name your dream",
               features: [
                 "🎯 Fully personalized experience",
                 "📋 Consultation to plan package",
@@ -177,7 +199,7 @@ const Services = () => {
               className="bg-white p-6 rounded-2xl shadow-lg border border-[#cfb2b1]"
             >
               <h3 className="text-xl font-bold text-[#5C5470] mb-2">
-                {tier.price} Tier
+                {tier.price} 
               </h3>
               <ul className="text-left text-[#5C5470] space-y-2">
                 {tier.features.map((item, index) => (

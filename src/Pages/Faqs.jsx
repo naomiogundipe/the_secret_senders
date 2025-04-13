@@ -24,6 +24,11 @@ const faqs = [
       "For now, yes. But we're expanding soon — stay tuned to our socials to know when we launch in your school!",
   },
   {
+    question: "Do you deliver to all halls?",
+    answer:
+      "For now, only to the female halls but we curate gift hampers to the male hall of residence . But we're expanding soon — stay tuned to our socials to know when we launch in the male halls.",
+  },
+  {
     question: "How do I place an order?",
     answer:
       "Just send us a DM on Instagram, WhatsApp, or use the 'Contact Us' button below. We'll guide you through the tier options and customizations.",
@@ -115,7 +120,7 @@ const Faqs = () => {
 
         <div className="mt-16 text-center">
           <motion.a
-            href="https://tally.so/r/w2oQyg"
+            href="https://t.me/the_secret_senders"
             whileHover={{ scale: 1.1 }}
             className="inline-flex items-center px-6 py-3 bg-[#d6b5ff] text-black font-bold text-lg rounded-full shadow-lg hover:bg-pink-600 transition"
           >
