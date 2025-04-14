@@ -12,6 +12,7 @@ import {
   Plane,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import MaleHampers from "../components/MaleHampers";
 
 const occasions = [
   {
@@ -50,6 +51,51 @@ const Services = () => {
   return (
     <>
       <Header />
+      <section className=" py-20 px-6 text-center">
+        <h2 className="text-3xl font-semibold text-[#5C5470] mb-10">
+          Occasions
+        </h2>
+        <p className="max-w-4xl  mx-auto ">
+          We offer a wide range of custom-themed decorations for all kinds of
+          events and special occasions. From birthdays to surprises, we provide
+          a variety of custom-themed decorations tailored for every occasion.{" "}
+        </p>
+        <div className="py-12 px-4 max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#5C5470] mb-10">
+            🎊 Occasions We Cover
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {occasions.map((item, index) => (
+              <motion.div
+                key={index}
+                whileHover={{ scale: 1.05 }}
+                className="bg-white p-6 rounded-2xl shadow-lg border border-[#cfb2b1] transition-all"
+              >
+                <div className="flex items-center justify-center mb-4">
+                  {item.icon}
+                </div>
+                <h3 className="text-xl font-semibold text-[#5C5470] text-center mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-[#5C5470] text-sm text-center">
+                  {item.description}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+        <p>
+          We offer these and much more, fill the{" "}
+          <a href="https://tally.so/r/w2oQyg" className="underline text-[#d6b5ff]">
+            form
+          </a>{" "}
+          and find our more or{" "}
+          <Link to={"/contact"} className="underline text-[#d6b5ff]">
+            contact
+          </Link>{" "}
+          us to find out more
+        </p>
+      </section>
       <section className="bg-[#fbe4e3] py-20 px-6 text-center">
         <h2 className="text-3xl font-semibold text-[#5C5470] mb-2">
           Our Packages
@@ -210,51 +256,7 @@ const Services = () => {
           ))}
         </div>
       </section>
-      <section className=" py-20 px-6 text-center">
-        <h2 className="text-3xl font-semibold text-[#5C5470] mb-10">
-          Occasions
-        </h2>
-        <p className="max-w-4xl  mx-auto ">
-          We offer a wide range of custom-themed decorations for all kinds of
-          events and special occasions. From birthdays to surprises, we provide
-          a variety of custom-themed decorations tailored for every occasion.{" "}
-        </p>
-        <div className="py-12 px-4 max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#5C5470] mb-10">
-            🎊 Occasions We Cover
-          </h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {occasions.map((item, index) => (
-              <motion.div
-                key={index}
-                whileHover={{ scale: 1.05 }}
-                className="bg-white p-6 rounded-2xl shadow-lg border border-[#cfb2b1] transition-all"
-              >
-                <div className="flex items-center justify-center mb-4">
-                  {item.icon}
-                </div>
-                <h3 className="text-xl font-semibold text-[#5C5470] text-center mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-[#5C5470] text-sm text-center">
-                  {item.description}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-        <p>
-          We offer these and much more, fill the{" "}
-          <a href="https://tally.so/r/w2oQyg" className="underline text-[#d6b5ff]">
-            form
-          </a>{" "}
-          and find our more or{" "}
-          <Link to={"/contact"} className="underline text-[#d6b5ff]">
-            contact
-          </Link>{" "}
-          us to find out more
-        </p>
-      </section>
+     <MaleHampers/>
     </>
   );
 };
