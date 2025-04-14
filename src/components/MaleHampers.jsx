@@ -132,7 +132,7 @@ const tiers = [
   },
   {
     price: "₦250,000",
-    name: "Big Baller",
+    name: "Odogwu",
     items: [
       "Branded Sneakers (Nike/Adidas)",
       "Portable Bluetooth Speaker",

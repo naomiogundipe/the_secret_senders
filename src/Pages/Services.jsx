@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import MaleHampers from "../components/MaleHampers";
-
+import Hamper from "../components/Hamper";
 const occasions = [
   {
     title: "Birthdays",
@@ -86,7 +86,10 @@ const Services = () => {
         </div>
         <p>
           We offer these and much more, fill the{" "}
-          <a href="https://tally.so/r/w2oQyg" className="underline text-[#d6b5ff]">
+          <a
+            href="https://tally.so/r/w2oQyg"
+            className="underline text-[#d6b5ff]"
+          >
             form
           </a>{" "}
           and find our more or{" "}
@@ -100,14 +103,19 @@ const Services = () => {
         <h2 className="text-3xl font-semibold text-[#5C5470] mb-2">
           Our Packages
         </h2>
-        <p className="mb-10 text-sm text-gray-400">All will be planned anonymously except stated otherwise</p>
+        <p className=" text-sm text-gray-400">
+          All will be planned anonymously except stated otherwise
+        </p>
+        <p className="mb-10 text-sm text-gray-700">
+          Check the hamper section below to know what will be included in the hamper
+        </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {[
             {
               price: "₦10,000 - Sweet & Simple",
               features: [
                 "🎈 Basic room décor",
-                "🎁 Mini gift hamper",
+                "🎁 Mini hamper",
                 "🎂 Mini cake loaf",
                 "📸 Photography (2 pictures)",
               ],
@@ -118,8 +126,8 @@ const Services = () => {
                 "🎈 Standard room décor",
                 "🎂 Small cake or snack box",
                 "📸 Photography (5 pictures)",
-                "🎁 Medium gift hamper",
-                "💐 Flower"
+                "🎁 Mini hamper",
+                "💐 Flower",
               ],
             },
             {
@@ -128,8 +136,8 @@ const Services = () => {
                 "🎈 Upgraded room décor",
                 "🎂 Medium cake and small chops",
                 "📸 Photography (10 pictures and 1 video)",
-                "🎁 Large Gift hamper",
-                "💐 Flower Bouquet"
+                "🎁 Simple hamper",
+                "💐 Flower ",
               ],
             },
             {
@@ -139,7 +147,7 @@ const Services = () => {
                 "🎂 Large cake and snack combo",
                 "📸 Professional photos(15 photos)",
                 "📸 Edited reaction vlog",
-                "🎁 Premium gift Hamper(personalised gift, skincare, period care)",
+                "🎁 Simple Hamper",
                 "💌 Handwritten message card",
               ],
             },
@@ -149,10 +157,10 @@ const Services = () => {
                 "🎈 Premium décor with theme",
                 "🎂 Large Cake + snack hamper + drinks",
                 "📸 Photoshoot (5+ photos)",
-                "🎁 Premium hamper + Branded T-Shirt/Branded Pillow",
+                "🎁 Classic Hamper",
                 "🎶 Full edited vlog",
                 "💐 Flower bouquet and rose path",
-                "🎁 Scrapbook gift"
+                "🎁 Scrapbook gift",
               ],
             },
             {
@@ -160,11 +168,9 @@ const Services = () => {
               features: [
                 "🎈 Themed décor + lights",
                 "🎂 Large cake & drink set & small chops",
-                "📸 Photo Album or Digital Album",
-                "🎁 Customized gift package",
-                "👑 Branded T-Shirt and branded pillow",
-                "💐 Money Bouquet and rose path",
-                "💐 Small Teddy Bear",
+                "📸 Digital Album",
+                "🎁 Classic Hamper",
+                "💐 Flower Bouquet",
                 "🎶 Full edited vlog",
                 "📸 Photoshoot (5+ photos)",
               ],
@@ -175,11 +181,11 @@ const Services = () => {
                 "🎈 Luxury themed décor",
                 "🎂 Premium cake/snack/wine combo",
                 "📸 Full digital + printed album",
-                "🎁 Personalized luxury gift",
-                "🎁 Medium Teddy Bear",
-                "💐 Flower with Money Bouquet",
+                "🎁 Luxury Hamper",
+                "🎁 Small Teddy Bear",
+                "💐 Flower  Bouquet",
                 "📸 Photoshoot (5+ photos)",
-                "👑 Branded T-Shirt and branded pillow",
+                "👑 Lash Session",
                 "💐 rose path",
               ],
             },
@@ -187,11 +193,13 @@ const Services = () => {
               price: "₦170,000 - Regal Treat",
               features: [
                 "🎈 Romantic luxury décor",
-                "🎂 Dessert tower + drinks",
+                "🎂 Dessert tower + drinks + food platter",
                 "📸 Photographer coverage",
-                "🎁 Couple gift set",
-                "💌 Love letter scroll",
-                " Deluxe Moment Package included"
+                "🎁 Premium Hamper",
+                "💌 Lash Session",
+                "👑 Makeup Session",
+                "Money Bouquet",
+                " Deluxe Moment Package included",
               ],
             },
             {
@@ -200,9 +208,11 @@ const Services = () => {
                 "🎈 Complete themed setup",
                 "🎂 Large custom cake",
                 "📸 Photoshoot + video coverage",
-                "🎁 Premium customized gift box",
-                "Regal Treat Package included"
-                
+                "🎁 Premium Hamper",
+                "💌 Lash Session",
+                "👑 Makeup Session",
+                "Money Bouquet",
+                "Regal Treat Package included",
               ],
             },
             {
@@ -211,11 +221,13 @@ const Services = () => {
                 "🎈 Full room transformation",
                 "🎂 Cake, snacks, wine, bouquet",
                 "📸 Videography + edited clips",
-                "🎁 Customized hamper",
-                " Skincare and Period care Package",
+                "🎁 Luxury hamper",
+                "💌 Lash Session",
+                "👑 Makeup Session",
+                "Money Bouquet",
+                "Skincare and Period care Package",
                 "Done according to your plan",
-                "Lavish Spark Package included"
-               
+                "Lavish Spark Package included",
               ],
             },
             {
@@ -224,9 +236,14 @@ const Services = () => {
                 "🎈 Deluxe full-suite décor",
                 "🎂 Multi-tier cake + dessert cart",
                 "📸 Cinematic photo/video",
-                "🎁 Luxury surprise box",
                 "🎊 Celebration coordination",
-                "Royalty Package included"
+                "🎁 Elite hamper",
+                "💌 Lash Session",
+                "👑 Makeup Session",
+                "👑 Hair Session",
+                "Flower with Money Bouquet",
+                "Skincare and Period care Package",
+                "Royalty Package included",
               ],
             },
             {
@@ -245,7 +262,7 @@ const Services = () => {
               className="bg-white p-6 rounded-2xl shadow-lg border border-[#cfb2b1]"
             >
               <h3 className="text-xl font-bold text-[#5C5470] mb-2">
-                {tier.price} 
+                {tier.price}
               </h3>
               <ul className="text-left text-[#5C5470] space-y-2">
                 {tier.features.map((item, index) => (
@@ -256,7 +273,8 @@ const Services = () => {
           ))}
         </div>
       </section>
-     <MaleHampers/>
+      <Hamper />
+      <MaleHampers />
     </>
   );
 };
