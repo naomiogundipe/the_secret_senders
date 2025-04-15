@@ -124,7 +124,7 @@ const Services = () => {
               price: "₦20,000 - Sweet Moments",
               features: [
                 "🎈 Standard room décor",
-                "🎂 Small cake or snack box",
+                "🎂 Bento cake or snack box",
                 "📸 Photography (5 pictures)",
                 "🎁 Mini hamper",
                 "💐 Flower",
@@ -134,7 +134,7 @@ const Services = () => {
               price: "₦30,000 - Chop & Cheer",
               features: [
                 "🎈 Upgraded room décor",
-                "🎂 Medium cake and small chops",
+                "🎂 Small sized cake and small chops",
                 "📸 Photography (10 pictures and 1 video)",
                 "🎁 Simple hamper",
                 "💐 Flower ",
@@ -144,7 +144,7 @@ const Services = () => {
               price: "₦50,000 - Golden Surprise",
               features: [
                 "🎈 Premium room décor",
-                "🎂 Large cake and snack combo",
+                "🎂 Medium sized cake and snack combo",
                 "📸 Professional photos(15 photos)",
                 "📸 Edited reaction vlog",
                 "🎁 Simple Hamper",

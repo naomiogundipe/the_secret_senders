@@ -104,7 +104,7 @@ const Hamper = () => {
   return (
     <section className="py-12 px-6 bg-gray-50">
       <h2 className="text-3xl font-bold text-center text-[#5C5470] mb-10">
-        Our Hamper Tiers
+        Female Hamper Tiers
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {hampers.map((hamper, index) => (
