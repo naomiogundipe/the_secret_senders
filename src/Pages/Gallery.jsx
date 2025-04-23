@@ -7,6 +7,9 @@ import three from "../assets/images/image3.jpg";
 import four from "../assets/images/image4.jpg";
 import gift from "../assets/images/gift.jpg";
 import cake from "../assets/images/cake.jpg";
+import five from "../assets/images/NASPA 1.jpg"
+import six from "../assets/images/NASPA 2.jpg"
+import seven from "../assets/images/NASPA 3.jpg"
 const images = [
   `${coming}`,
   `${one}`,
@@ -15,6 +18,9 @@ const images = [
   `${four}`,
   `${gift}`,
   `${cake}`,
+  `${five}`,
+  `${six}`,
+  `${seven}`
 ];
 
 const Gallery = () => {
