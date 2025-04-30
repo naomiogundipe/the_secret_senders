@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-router-dom";
+import { Typewriter } from 'react-simple-typewriter';
 import hero from "../assets/images/hero.jpeg";
 const Hero = () => {
   return (
@@ -16,7 +17,15 @@ const Hero = () => {
           className="text-5xl font-bold text-[#fff]"
           style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 1)" }}
         >
-          Make Every Occasion Magical 🎉
+          <Typewriter
+            words={["You've just arrived at Secret Senders — where surprises come alive! 🎁", 'The Ultimate Surprise Hub 🎉', 'Sprinkle sparkle on every celebration ✨']}
+            loop={true}
+            cursor
+            cursorStyle="|"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
         </h2>
         <p className="mt-4 text-lg">
           Crafting unforgettable surprises for your special moments
