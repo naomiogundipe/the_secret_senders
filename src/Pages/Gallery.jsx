@@ -1,26 +1,34 @@
 import React from "react";
 import Header from "../components/Header";
 import coming from "../assets/images/coming_soon.jpg";
-import one from "../assets/images/image1.jpg";
-import two from "../assets/images/image2.jpg";
-import three from "../assets/images/image3.jpg";
-import four from "../assets/images/image4.jpg";
 import gift from "../assets/images/gift.jpg";
 import cake from "../assets/images/cake.jpg";
-import five from "../assets/images/NASPA 1.jpg"
-import six from "../assets/images/NASPA 2.jpg"
-import seven from "../assets/images/NASPA 3.jpg"
+import five from "../assets/images/NASPA 1.jpg";
+import six from "../assets/images/NASPA 2.jpg";
+import seven from "../assets/images/NASPA 3.jpg";
+import eight from "../assets/images/DSC_0100.JPG";
+import nine from "../assets/images/DSC_0023.JPG";
+import ten from "../assets/images/DSC_0024.JPG";
+import eleven from "../assets/images/DSC_0098.JPG";
+import twelve from "../assets/images/DSC_0047.JPG";
+import thirteen from "../assets/images/DSC_0032.JPG";
+import fourteen from "../assets/images/DSC_0026.JPG";
+import fifteen from "../assets/images/DSC_0025.JPG";
 const images = [
   `${coming}`,
-  `${one}`,
-  `${two}`,
-  `${three}`,
-  `${four}`,
   `${gift}`,
   `${cake}`,
   `${five}`,
   `${six}`,
-  `${seven}`
+  `${seven}`,
+  `${eight}`,
+  `${nine}`,
+  `${ten}`,
+  `${eleven}`,
+  `${twelve}`,
+  `${thirteen}`,
+  `${fourteen}`,
+  `${fifteen}`,
 ];
 
 const Gallery = () => {
